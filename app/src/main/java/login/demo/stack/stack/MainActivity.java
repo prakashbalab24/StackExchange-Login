@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button login;
     WebView webView;
-    String client_id="<<PASTE YOUR CLIENT ID HERE>>";
+    String client_id=BuildConfig.client_id;
     String url ="https://stackexchange.com/oauth/dialog?client_id="+client_id+"&scope=private_info&redirect_uri=https://balajimanikandan.netau.net";
 
     @Override

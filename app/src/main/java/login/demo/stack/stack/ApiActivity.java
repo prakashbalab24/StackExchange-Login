@@ -19,7 +19,7 @@ import org.json.JSONObject;
 
 public class ApiActivity extends AppCompatActivity {
 
-    String token ="",key="<<PLEASE PASTE YOUR KEY HERE>>";
+    String token ="",key=BuildConfig.key;
     String url="https://api.stackexchange.com/2.2/me?site=stackoverflow&key="+key+"&access_token=";
     TextView tvName,tvLocation;
     ImageView dp;

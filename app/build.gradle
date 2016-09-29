@@ -16,6 +16,11 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        buildTypes.each {
+            it.buildConfigField 'String', 'client_id', CLIENT_ID
+            it.buildConfigField 'String', 'key', KEY
+
+        }
     }
 }
 

@@ -14,4 +14,4 @@ This is an Android app which has a single login button which uses Stack Exchange
 
 #### Documentation: https://api.stackexchange.com/docs
 
-##Thank You## Visit [opensourceandroid.in](http://opensourceandroid.in) for more projects.
+##Thank You Visit [opensourceandroid.in](http://opensourceandroid.in) for more projects.
